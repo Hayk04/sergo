@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.b{
+	background-image: url(carousel.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.menu{
+	float: right;
+}
+
+#menu li{
+	padding-left: 63px;
+	padding-right: 63px;
+}
+
+#menu li a {
+	color: white;
+}
+
+#menu li a:hover{
+	color: rebeccapurple;
+	text-decoration: underline;
+}
+
+.regbtn{
+	border-radius: 25px;
+	padding: 5px 10px 5px 10px;
+	border-color: rebeccapurple;
+	background-color: transparent;
+}
+
+.regbtn:hover{
+	background: rgb(9,244,249);
+	background: linear-gradient(90deg, rgba(9,244,249,1) 35%, rgba(255,0,224,1) 100%);
+}
+
+
+.regbtn a{
+	color: white;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.hh{
+	position: static;
+	height: 63px;
+	left: 0px;
+	top: 0px;
+	font-family: Play;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 87.7%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #AEAECC;
+}
+
+.laptop{
+	background-image: url(laptop.png);
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 800px 500px;
+	margin-top: 50px;	
+}
+
+.gg{
+	height: 298px;
+	width: 610px; 
+	margin-left: 340px;
+	margin-top: 39px;
+}
+
+.btn{
+	left: 450px;
+	top: 270px;
+	position: absolute;
+}
+
+.btns{
+	left: 463px;
+	top: 330px;
+	position: absolute;
+}
+
+.oo{
+	display: flex;
+	margin-top: 40px;
+}
+
+.over{
+	margin-left: 40px;
+	position: static;
+	width: 112px;
+	height: 18px;
+	left: calc(50% - 112px/2 - 47px);
+	top: calc(50% - 18px/2);
+	font-family: Ruda;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.contact{
+	position: static;
+	width: 112px;
+	height: 18px;
+	left: calc(50% - 112px/2 - 47px);
+	top: calc(50% - 18px/2);
+	font-family: Ruda;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.hrefs{
+	float: right;
+	margin-right: 40px;
+	margin-top: 15px;
+}
+
+.hrefs li {
+	list-style-type: none;
+}
+
+.hrefs li a {
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	color: #6F6599;
+	font-size: 30px;
+}
+
+.hrefs li a:hover{
+	background-color: transparent;
+}
